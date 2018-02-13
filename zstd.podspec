@@ -51,5 +51,5 @@ LICENSE
   s.source   = { :http => "https://github.com/facebook/zstd/archive/#{archive_name}.zip" }
   
   s.source_files = "#{unpacked_archive_name}/lib/**/*.{h,c}"
-  s.private_header_files = "#{unpacked_archive_name}/lib/**/*internal*.h"
+  s.public_header_files = "#{unpacked_archive_name}/lib/**/*.h"
 end
