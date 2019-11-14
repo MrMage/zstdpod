@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'zstd'
-  s.version          = '1.3.3'
+  s.version          = '1.4.4'
   s.summary          = 'A fast lossless compression algorithm, targeting real-time compression scenarios at zlib-level and better compression ratios'
 
   s.description      = <<-DESC
