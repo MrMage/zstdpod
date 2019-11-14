@@ -52,5 +52,12 @@ LICENSE
   
   s.source_files = "#{unpacked_archive_name}/lib/**/*.{h,c}"
   s.public_header_files = "#{unpacked_archive_name}/lib/**/*.h"
-  s.private_header_files = ["#{unpacked_archive_name}/lib/{common,compress,decompress,deprecated,dictBuilder,legacy}/*.h"]
+  s.private_header_files = [
+    "#{unpacked_archive_name}/lib/common/*.h",
+    "#{unpacked_archive_name}/lib/compress/*.h",
+    "#{unpacked_archive_name}/lib/decompress/*.h",
+    "#{unpacked_archive_name}/lib/deprecated/*.h",
+    "#{unpacked_archive_name}/lib/dictBuilder/*.h",
+    "#{unpacked_archive_name}/lib/legacy/*.h"
+  ]
 end
