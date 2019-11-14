@@ -52,5 +52,5 @@ LICENSE
   
   s.source_files = "#{unpacked_archive_name}/lib/**/*.{h,c}"
   s.public_header_files = "#{unpacked_archive_name}/lib/**/*.h"
-  s.private_header_files = ["#{unpacked_archive_name}/lib/**/zstd_compress_internal.h", "#{unpacked_archive_name}/lib/**/zstd_compress_literals.h", "#{unpacked_archive_name}/lib/**/zstd_ldm.h", "#{unpacked_archive_name}/lib/**/zstd_fast.h", "#{unpacked_archive_name}/lib/**/zstd_double_fast.h", "#{unpacked_archive_name}/lib/**/zstd_lazy.h", "#{unpacked_archive_name}/lib/**/zstd_opt.h"]
+  s.private_header_files = ["#{unpacked_archive_name}/lib/{common,compress,decompress,deprecated,dictBuilder,legacy}/*.h"]
 end
