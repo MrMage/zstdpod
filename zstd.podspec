@@ -70,6 +70,7 @@ LICENSE
     "#{unpacked_archive_name}/lib/compress/zstd_compress_internal.h",
     "#{unpacked_archive_name}/lib/compress/zstd_compress_literals.h",
     "#{unpacked_archive_name}/lib/compress/zstd_compress_sequences.h",
+    "#{unpacked_archive_name}/lib/compress/zstd_compress_superblock.h",
     "#{unpacked_archive_name}/lib/compress/zstd_cwksp.h",
     "#{unpacked_archive_name}/lib/compress/zstd_double_fast.h",
     "#{unpacked_archive_name}/lib/compress/zstd_fast.h",
